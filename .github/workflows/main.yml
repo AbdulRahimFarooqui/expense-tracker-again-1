@@ -40,4 +40,4 @@ jobs:
     - name: Installing Surge
       run: npm install -g surge
     - name: Deploying....
-      run: surge ./build https://my-expense-tracker.surge.sh --token ${{secrets.SURGE_KEY}}
+      run: surge ./build https://abdulrahimfarooqui-expense-tracker-app.surge.sh --token ${{secrets.SURGE_KEY}}
