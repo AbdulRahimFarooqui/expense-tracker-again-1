@@ -49,8 +49,8 @@ function Main() {
                 </h3>
             </div>
             <div className="totals">
-                <h3>Total Income <br />{totalIncome()}</h3>
-                <h3>Total Expenses <br />{totalExpense()}</h3>
+                <h3>Total Income <br />${totalIncome()}</h3>
+                <h3>Total Expenses <br />${totalExpense()}</h3>
             </div>
             <h3>History<hr /></h3>
             <ul className="history" >
@@ -62,7 +62,7 @@ function Main() {
                                 {val.desc}
                             </span>
                             <span>
-                                {val.amount}
+                                ${val.amount}
                             </span>
                         </li>
                     );
