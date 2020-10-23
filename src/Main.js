@@ -20,9 +20,7 @@ function Main() {
     }
     const totalIncome = () => {
         let totalI = 0;
-        console.log("From TotalIncome, trans.amount: ", trans)
         for (let i = 0; i < trans.length; i++) {
-            console.log("From TotalIncome, trans.amount: ", trans.amount)
             if (trans[i].amount > 0) {
                 totalI += trans[i].amount;
             }
@@ -32,7 +30,6 @@ function Main() {
     const totalExpense = () => {
         let totalE = 0
         for (var x = 0; x < trans.length; x++) {
-            console.log("From TotalExpense, trans.amount: ", trans.amount)
             if (trans[x].amount < 0) {
 
                 totalE += trans[x].amount;
